@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Titan Community Bank</title>
+  <link rel="stylesheet" href="../index.css">
+  <script src="../js folder/registration.js"></script>
+</head>
+<body>
+<div class="nav-container">
+  <nav class="navbar">
+    <h1 id="navbar-logo">Titan Community Bank</h1>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="nav-menu">
+      <li><a href="index.html" class="nav-links">Home</a></li>
+      <li><a href="prequalify.html" class="nav-links">Prequalify for Financing</a></li>
+      <li><a href="registration.html" class="nav-links">Register</a></li>
+      <li><a href="login.html" class="nav-links">Login</a></li>
+    </ul>
+  </nav>
+</div>
+<section id="reg_form">
+  <div id="reg_container">
+    <form action="registration.html" id="registration_form" name="registration form" method="get">
+      <h1>Registration Form</h1>
+
+      <label for="email">E-Mail:</label>
+      <input type="text" name="email" id="email" autocomplete="off">
+      <span id="email_error">&nbsp;</span><br>
+
+      <label for="password">Password:</label>
+      <input type="text" name="password" id="password" autocomplete="off">
+      <span id="password_error">&nbsp;</span><br>
+
+      <label for="verify_password">Confirm Password:</label>
+      <input type="text" name="verify_password" id="verify_password" autocomplete="off">
+      <span id="verify_error">&nbsp;</span><br>
+
+      <input type="button" id="register" value="Register">
+      <input type="button" id="reset_form" value="Reset">
+
+    </form>
+    <div id="table">
+      <h2 id="registration_header">&nbsp;</h2>
+      <table id="registration_info"></table>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-container">
+    <div class="footer">
+      <div class="footer-heading footer-1">
+        <h2>Address</h2>
+        <p>12345 Some Road <br>
+          Tampa, FL 54321</p>
+      </div>
+      <div class="footer-heading copyright footer-3">
+        <p>© Copyright 2022 The Titan Community Bank - All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="../js%20folder/registration.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Titan Community Bank</title>
+  <link rel="stylesheet" href="../index.css">
+  <script src="../js folder/prequalify.js"></script>
+</head>
+<body>
+<div class="nav-container">
+  <nav class="navbar">
+    <h1 id="navbar-logo">Titan Community Bank</h1>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="nav-menu">
+      <li><a href="index.html" class="nav-links">Home</a></li>
+      <li><a href="prequalify.html" class="nav-links">Prequalify for Financing</a></li>
+      <li><a href="registration.html" class="nav-links">Register</a></li>
+      <li><a href="login.html" class="nav-links">Login</a></li>
+    </ul>
+  </nav>
+</div>
+<section id="prequalify">
+  <div class="pq_container">
+    <form action="prequalify.html" id="prequalify_form" name="prequalify form" method="get">
+      <h1>Application Form</h1>
+
+      <label for="email">E-Mail:</label>
+        <input type="text" name="email" id="email">
+        <span id="email_error">&nbsp;</span><br>
+
+      <label for="verify_email">Re-enter E-mail:</label>
+        <input type="text" name="verify_email" id="verify_email">
+        <span id="verify_error">&nbsp;</span><br>
+
+      <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name">
+        <span id="first_name_error">&nbsp;</span><br>
+
+      <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last_name">
+        <span id="last_name_error">&nbsp;</span><br>
+
+      <label for="zip">ZIP Code:</label>
+        <input type="text" name="zip" id="zip">
+        <span id="zip_error">&nbsp;</span><br>
+
+      <label for="gross_income">Gross Income:</label>
+        <input type="text" name="gross_income" id="gross_income">
+        <span id="gross_income_error">&nbsp;</span><br>
+
+      <label for="ssn">Last 4 digits of SSN:</label>
+        <input type="text" name="ssn" id="ssn">
+        <span id="ssn_error">&nbsp</span><br>
+
+      <label for="terms">Terms of Service:</label>
+        <input type="checkbox" name="terms" id="terms" value="yes">
+        <br>
+          <p>By checking this box, this prequalification request serves as my
+            written instruction to Titan Community Bank
+            to obtain a “soft inquiry” about my credit
+            information, which won’t affect my credit score.
+            I agree that TCB can send me an email confirming my request.
+          </p>
+        <input type="button" id="apply" value="Apply">
+        <input type="button" id="reset_form" value="Reset">
+    </form>
+    <div id="table">
+      <h2 id="registration_header">&nbsp;</h2>
+      <table id="registration_info"></table>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-container">
+    <div class="footer">
+      <div class="footer-heading footer-1">
+        <h2>Address</h2>
+        <p>12345 Some Road <br>
+          Tampa, FL 54321</p>
+      </div>
+      <div class="footer-heading copyright footer-3">
+        <p>© Copyright 2022 The Titan Community Bank - All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="../js%20folder/prequalify.js"></script>
+</body>
+</html>
